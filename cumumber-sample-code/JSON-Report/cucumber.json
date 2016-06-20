@@ -1,0 +1,92 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: karansawhney1991@gmail.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary : Sample Cucumber Project for training purpose"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Search Samsung Galaxy S7 on flipkart",
+        "description": "",
+        "id": "search-products-on-e-commerce-platform.;search-samsung-galaxy-s7-on-flipkart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16960847066,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Flipkart home page",
+            "match": {
+              "location": "TestSteps.user_is_on_Flipkart_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 682974396,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter product name in search bar",
+            "match": {
+              "location": "TestSteps.user_enter_product_name_in_search_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9593111195,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "TestSteps.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187498988,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is displayed all the products which matches search result",
+            "match": {
+              "location": "TestSteps.user_is_displayed_all_the_products_which_matches_search_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 343623157,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects white product.",
+            "match": {
+              "location": "TestSteps.user_selects_white_product()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search Products on E-commerce platform.",
+    "description": "",
+    "id": "search-products-on-e-commerce-platform.",
+    "keyword": "Feature",
+    "uri": "SearchProduct.feature"
+  }
+]
